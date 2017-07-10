@@ -1,0 +1,3 @@
+[submodule "cobalt-tools"]
+	path = cobalt-tools
+	url = https://github.com/booyaa/cobalt-tools.git

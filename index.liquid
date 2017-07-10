@@ -2,6 +2,8 @@ extends: default.liquid
 ---
 <div >
   <h2>Blog!</h2>
+  {% assign name = 'world' %}
+  {% include "cobalt-tools/hello.liquid" %}
   <!--<br />-->
   <div>
     {% for post in posts %}
@@ -11,4 +13,5 @@ extends: default.liquid
       </div>
     {% endfor %}
   </div>
+  {% include "cobalt-tools/goodbye.liquid" %}
 </div>
